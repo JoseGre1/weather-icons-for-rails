@@ -16,8 +16,8 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency 'railties', '>= 4.1', '< 5.0'
 
-  gem.add_development_dependency 'activesupport'
-  gem.add_development_dependency 'sass-rails'
+  gem.add_development_dependency 'activesupport', '>= 4.1'
+  gem.add_development_dependency 'sass-rails', '>= 0'
 
   gem.required_ruby_version = '>= 1.9.3'
 end
