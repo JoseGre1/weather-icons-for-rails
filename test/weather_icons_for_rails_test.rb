@@ -61,6 +61,21 @@ class WeatherIconForRailsTest < ActionDispatch::IntegrationTest
       response.body)
   end
 
+  test 'stylesheet is available in a css sprockets require' do
+    get '/assets/sprockets-require.css'
+    assert_weather_icons(response)
+  end
+
+  test 'stylesheet is available in a sass import' do
+    get '/assets/sass-import.css'
+    assert_weather_icons(response)
+  end
+
+  test 'stylesheet is available in a scss import' do
+    get '/assets/scss-import.css'
+    assert_weather_icons(response)
+  end
+
   private
 
   def clean_sprockets_cache
