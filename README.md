@@ -23,6 +23,7 @@ In your `application.css`, include the css file:
  *= require weather-icons
  */
 ```
+In order to use the wind icons and API mappings, you must include `*= require weather-icons-wind`.
 
 Then restart your webserver if it was previously running.
 
@@ -35,6 +36,8 @@ If you prefer [SCSS](http://sass-lang.com/documentation/file.SASS_REFERENCE.html
 @import "weather-icons";
 ```
 
+Include `@import "weather-icons-wind"` to use the wind icons and API mappings.
+
 If you use the
 [Sass indented syntax](http://sass-lang.com/docs/yardoc/file.INDENTED_SYNTAX.html),
 add this to your `application.css.sass` file:
@@ -43,6 +46,7 @@ add this to your `application.css.sass` file:
 @import weather-icons
 ```
 
+Include `@import weather-icons-wind` to use the wind icons and API mappings.
 
 ## License
 
