@@ -4,6 +4,46 @@ weather-icons-for-rails provides the
 [Weather Icons](http://erikflowers.github.io/weather-icons/) web fonts and
 stylesheets as a Rails engine for use with the asset pipeline.
 
+## Installation
+
+Add this to your Gemfile:
+
+```ruby
+gem 'weather-icons-for-rails'
+```
+
+and run `bundle install`.
+
+## Usage
+
+In your `application.css`, include the css file:
+
+```css
+/*
+ *= require weather-icons
+ */
+```
+
+Then restart your webserver if it was previously running.
+
+### Sass Support
+
+If you prefer [SCSS](http://sass-lang.com/documentation/file.SASS_REFERENCE.html), add this to your
+`application.css.scss` file:
+
+```scss
+@import "weather-icons";
+```
+
+If you use the
+[Sass indented syntax](http://sass-lang.com/docs/yardoc/file.INDENTED_SYNTAX.html),
+add this to your `application.css.sass` file:
+
+```sass
+@import weather-icons
+```
+
+
 ## License
 
 * The Weather Icons font is
