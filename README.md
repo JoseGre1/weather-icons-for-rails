@@ -1,4 +1,6 @@
-# weather-icons-for-rails     [![Codeship](https://codeship.com/projects/3ffad060-5c59-0133-3ac8-22b0ee77d2e6/status?branch=master)](https://codeship.com/projects/110938)
+# weather-icons-for-rails [![Gem Version](https://badge.fury.io/rb/weather-icons-for-rails.svg)](https://badge.fury.io/rb/weather-icons-for-rails)
+
+[![Codeship](https://codeship.com/projects/3ffad060-5c59-0133-3ac8-22b0ee77d2e6/status?branch=master)](https://codeship.com/projects/110938)
 
 weather-icons-for-rails provides the
 [Weather Icons](http://erikflowers.github.io/weather-icons/) web fonts and
